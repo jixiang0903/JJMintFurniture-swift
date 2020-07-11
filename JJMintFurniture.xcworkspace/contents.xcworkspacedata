@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/jixiang/Desktop/&#x4e13;&#x4e1a;&#x8bfe;/demo/Swift/JJTabbar-swift/JJTabbar.xcodeproj">
+      location = "group:JJMintFurniture.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

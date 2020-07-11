@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		1AB86DB836FB103205E48435 /* Pods_JJMintFurniture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1627FDA7C122DC6B769AE2 /* Pods_JJMintFurniture.framework */; };
+		CB6C7B3D210ABCBF00927E09 /* JJConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C7B3C210ABCBF00927E09 /* JJConst.swift */; };
+		CB6C7B3F210ABD4000927E09 /* JJTestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C7B3E210ABD4000927E09 /* JJTestTableViewController.swift */; };
+		CB6C7B41210AF9E400927E09 /* JJSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C7B40210AF9E400927E09 /* JJSearchBar.swift */; };
+		CB6C7B43210AFA1200927E09 /* JJSearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C7B42210AFA1200927E09 /* JJSearchTextField.swift */; };
+		CB6C7B472111A83000927E09 /* JJDiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C7B462111A83000927E09 /* JJDiscoverTableViewController.swift */; };
+		CB6C7B492111A89F00927E09 /* JJDiscoverScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C7B482111A89F00927E09 /* JJDiscoverScrollView.swift */; };
+		CB6C7B4B2111A97000927E09 /* JJDiscoverCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C7B4A2111A97000927E09 /* JJDiscoverCollectionViewController.swift */; };
+		CB6C7B4D2111A99D00927E09 /* JJDiscoverCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C7B4C2111A99D00927E09 /* JJDiscoverCollectionViewFlowLayout.swift */; };
+		CB6C7B502112FC8700927E09 /* JJDiscoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C7B4E2112FC8700927E09 /* JJDiscoverCell.swift */; };
+		CB6C7B512112FC8700927E09 /* JJDiscoverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6C7B4F2112FC8700927E09 /* JJDiscoverCell.xib */; };
+		CB6C7B532113030700927E09 /* JJShufflingFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C7B522113030700927E09 /* JJShufflingFigureView.swift */; };
+		CB6C9D70229D5C4300D7483F /* JJItemBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C9D6F229D5C4300D7483F /* JJItemBtnView.swift */; };
 		CBDB879520F7489800BB1616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB879420F7489800BB1616 /* AppDelegate.swift */; };
 		CBDB879A20F7489800BB1616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDB879820F7489800BB1616 /* Main.storyboard */; };
 		CBDB879C20F7489A00BB1616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBDB879B20F7489A00BB1616 /* Assets.xcassets */; };
@@ -44,16 +56,28 @@
 /* Begin PBXFileReference section */
 		5F1627FDA7C122DC6B769AE2 /* Pods_JJMintFurniture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJMintFurniture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9BA055E3BF56B17A0A534B8 /* Pods-JJMintFurniture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJMintFurniture.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJMintFurniture/Pods-JJMintFurniture.release.xcconfig"; sourceTree = "<group>"; };
-		CBDB879120F7489800BB1616 /* JJTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6C7B3C210ABCBF00927E09 /* JJConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJConst.swift; sourceTree = "<group>"; };
+		CB6C7B3E210ABD4000927E09 /* JJTestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJTestTableViewController.swift; sourceTree = "<group>"; };
+		CB6C7B40210AF9E400927E09 /* JJSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJSearchBar.swift; sourceTree = "<group>"; };
+		CB6C7B42210AFA1200927E09 /* JJSearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJSearchTextField.swift; sourceTree = "<group>"; };
+		CB6C7B462111A83000927E09 /* JJDiscoverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJDiscoverTableViewController.swift; sourceTree = "<group>"; };
+		CB6C7B482111A89F00927E09 /* JJDiscoverScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJDiscoverScrollView.swift; sourceTree = "<group>"; };
+		CB6C7B4A2111A97000927E09 /* JJDiscoverCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJDiscoverCollectionViewController.swift; sourceTree = "<group>"; };
+		CB6C7B4C2111A99D00927E09 /* JJDiscoverCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJDiscoverCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		CB6C7B4E2112FC8700927E09 /* JJDiscoverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJDiscoverCell.swift; sourceTree = "<group>"; };
+		CB6C7B4F2112FC8700927E09 /* JJDiscoverCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JJDiscoverCell.xib; sourceTree = "<group>"; };
+		CB6C7B522113030700927E09 /* JJShufflingFigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJShufflingFigureView.swift; sourceTree = "<group>"; };
+		CB6C9D6F229D5C4300D7483F /* JJItemBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJItemBtnView.swift; sourceTree = "<group>"; };
+		CBDB879120F7489800BB1616 /* JJMintFurniture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJMintFurniture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDB879420F7489800BB1616 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBDB879920F7489800BB1616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBDB879B20F7489A00BB1616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBDB879E20F7489A00BB1616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBDB87A020F7489A00BB1616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBDB87A520F7489A00BB1616 /* JJTabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJTabbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDB87A520F7489A00BB1616 /* JJMintFurnitureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJMintFurnitureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDB87A920F7489A00BB1616 /* JJMintFurnitureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJMintFurnitureTests.swift; sourceTree = "<group>"; };
 		CBDB87AB20F7489A00BB1616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBDB87B020F7489A00BB1616 /* JJTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDB87B020F7489A00BB1616 /* JJMintFurnitureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJMintFurnitureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDB87B420F7489A00BB1616 /* JJMintFurnitureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJMintFurnitureUITests.swift; sourceTree = "<group>"; };
 		CBDB87B620F7489A00BB1616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBDB87C920F7563F00BB1616 /* JJBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJBaseViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +134,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CB6C7B3B210ABCA200927E09 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CB6C7B3C210ABCBF00927E09 /* JJConst.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		CBDB878820F7489700BB1616 = {
 			isa = PBXGroup;
 			children = (
@@ -125,9 +157,9 @@
 		CBDB879220F7489800BB1616 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CBDB879120F7489800BB1616 /* JJTabbar.app */,
-				CBDB87A520F7489A00BB1616 /* JJTabbarTests.xctest */,
-				CBDB87B020F7489A00BB1616 /* JJTabbarUITests.xctest */,
+				CBDB879120F7489800BB1616 /* JJMintFurniture.app */,
+				CBDB87A520F7489A00BB1616 /* JJMintFurnitureTests.xctest */,
+				CBDB87B020F7489A00BB1616 /* JJMintFurnitureUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				CBDB87CB20F764B300BB1616 /* Class */,
+				CB6C7B3B210ABCA200927E09 /* Tool */,
 				CBDB87C220F74EDC00BB1616 /* Main */,
 				CBDB879820F7489800BB1616 /* Main.storyboard */,
 				CBDB879B20F7489A00BB1616 /* Assets.xcassets */,
@@ -226,6 +259,7 @@
 			children = (
 				CBDB87D820F7663700BB1616 /* JJHomeViewController.swift */,
 				CBDB87E620F8A3F300BB1616 /* JJSearchViewController.swift */,
+				CB6C7B3E210ABD4000927E09 /* JJTestTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -234,6 +268,10 @@
 			isa = PBXGroup;
 			children = (
 				CBDB87DA20F7664600BB1616 /* JJDiscoverViewController.swift */,
+				CB6C7B462111A83000927E09 /* JJDiscoverTableViewController.swift */,
+				CB6C7B482111A89F00927E09 /* JJDiscoverScrollView.swift */,
+				CB6C7B4A2111A97000927E09 /* JJDiscoverCollectionViewController.swift */,
+				CB6C7B4C2111A99D00927E09 /* JJDiscoverCollectionViewFlowLayout.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -257,6 +295,8 @@
 		CBDB87D420F765BA00BB1616 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CB6C7B40210AF9E400927E09 /* JJSearchBar.swift */,
+				CB6C7B42210AFA1200927E09 /* JJSearchTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -264,6 +304,10 @@
 		CBDB87D520F765C500BB1616 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CB6C7B4E2112FC8700927E09 /* JJDiscoverCell.swift */,
+				CB6C7B4F2112FC8700927E09 /* JJDiscoverCell.xib */,
+				CB6C7B522113030700927E09 /* JJShufflingFigureView.swift */,
+				CB6C9D6F229D5C4300D7483F /* JJItemBtnView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -285,9 +329,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CBDB879020F7489800BB1616 /* JJTabbar */ = {
+		CBDB879020F7489800BB1616 /* JJMintFurniture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBDB87B920F7489A00BB1616 /* Build configuration list for PBXNativeTarget "JJTabbar" */;
+			buildConfigurationList = CBDB87B920F7489A00BB1616 /* Build configuration list for PBXNativeTarget "JJMintFurniture" */;
 			buildPhases = (
 				4A6F6CA3E7EC5088E20AF2DF /* [CP] Check Pods Manifest.lock */,
 				CBDB878D20F7489800BB1616 /* Sources */,
@@ -299,14 +343,14 @@
 			);
 			dependencies = (
 			);
-			name = JJTabbar;
+			name = JJMintFurniture;
 			productName = JJMintFurniture;
-			productReference = CBDB879120F7489800BB1616 /* JJTabbar.app */;
+			productReference = CBDB879120F7489800BB1616 /* JJMintFurniture.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CBDB87A420F7489A00BB1616 /* JJTabbarTests */ = {
+		CBDB87A420F7489A00BB1616 /* JJMintFurnitureTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBDB87BC20F7489A00BB1616 /* Build configuration list for PBXNativeTarget "JJTabbarTests" */;
+			buildConfigurationList = CBDB87BC20F7489A00BB1616 /* Build configuration list for PBXNativeTarget "JJMintFurnitureTests" */;
 			buildPhases = (
 				CBDB87A120F7489A00BB1616 /* Sources */,
 				CBDB87A220F7489A00BB1616 /* Frameworks */,
@@ -317,14 +361,14 @@
 			dependencies = (
 				CBDB87A720F7489A00BB1616 /* PBXTargetDependency */,
 			);
-			name = JJTabbarTests;
+			name = JJMintFurnitureTests;
 			productName = JJMintFurnitureTests;
-			productReference = CBDB87A520F7489A00BB1616 /* JJTabbarTests.xctest */;
+			productReference = CBDB87A520F7489A00BB1616 /* JJMintFurnitureTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CBDB87AF20F7489A00BB1616 /* JJTabbarUITests */ = {
+		CBDB87AF20F7489A00BB1616 /* JJMintFurnitureUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBDB87BF20F7489A00BB1616 /* Build configuration list for PBXNativeTarget "JJTabbarUITests" */;
+			buildConfigurationList = CBDB87BF20F7489A00BB1616 /* Build configuration list for PBXNativeTarget "JJMintFurnitureUITests" */;
 			buildPhases = (
 				CBDB87AC20F7489A00BB1616 /* Sources */,
 				CBDB87AD20F7489A00BB1616 /* Frameworks */,
@@ -335,9 +379,9 @@
 			dependencies = (
 				CBDB87B220F7489A00BB1616 /* PBXTargetDependency */,
 			);
-			name = JJTabbarUITests;
+			name = JJMintFurnitureUITests;
 			productName = JJMintFurnitureUITests;
-			productReference = CBDB87B020F7489A00BB1616 /* JJTabbarUITests.xctest */;
+			productReference = CBDB87B020F7489A00BB1616 /* JJMintFurnitureUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -363,7 +407,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CBDB878C20F7489700BB1616 /* Build configuration list for PBXProject "JJTabbar" */;
+			buildConfigurationList = CBDB878C20F7489700BB1616 /* Build configuration list for PBXProject "JJMintFurniture" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -376,9 +420,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CBDB879020F7489800BB1616 /* JJTabbar */,
-				CBDB87A420F7489A00BB1616 /* JJTabbarTests */,
-				CBDB87AF20F7489A00BB1616 /* JJTabbarUITests */,
+				CBDB879020F7489800BB1616 /* JJMintFurniture */,
+				CBDB87A420F7489A00BB1616 /* JJMintFurnitureTests */,
+				CBDB87AF20F7489A00BB1616 /* JJMintFurnitureUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -390,6 +434,7 @@
 			files = (
 				CBDB879F20F7489A00BB1616 /* LaunchScreen.storyboard in Resources */,
 				CBDB879C20F7489A00BB1616 /* Assets.xcassets in Resources */,
+				CB6C7B512112FC8700927E09 /* JJDiscoverCell.xib in Resources */,
 				CBDB879A20F7489800BB1616 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,12 +507,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6C7B4D2111A99D00927E09 /* JJDiscoverCollectionViewFlowLayout.swift in Sources */,
 				CBDB87DD20F7665100BB1616 /* JJMessageViewController.swift in Sources */,
+				CB6C7B4B2111A97000927E09 /* JJDiscoverCollectionViewController.swift in Sources */,
+				CB6C7B532113030700927E09 /* JJShufflingFigureView.swift in Sources */,
 				CBDB87DF20F7665D00BB1616 /* JJMeViewController.swift in Sources */,
 				CBDB87D920F7663700BB1616 /* JJHomeViewController.swift in Sources */,
 				CBDB879520F7489800BB1616 /* AppDelegate.swift in Sources */,
 				CBDB87CA20F7563F00BB1616 /* JJBaseViewController.swift in Sources */,
+				CB6C7B3D210ABCBF00927E09 /* JJConst.swift in Sources */,
+				CB6C7B472111A83000927E09 /* JJDiscoverTableViewController.swift in Sources */,
+				CB6C7B3F210ABD4000927E09 /* JJTestTableViewController.swift in Sources */,
+				CB6C7B41210AF9E400927E09 /* JJSearchBar.swift in Sources */,
+				CB6C7B43210AFA1200927E09 /* JJSearchTextField.swift in Sources */,
 				CBDB87DB20F7664600BB1616 /* JJDiscoverViewController.swift in Sources */,
+				CB6C7B492111A89F00927E09 /* JJDiscoverScrollView.swift in Sources */,
+				CB6C7B502112FC8700927E09 /* JJDiscoverCell.swift in Sources */,
+				CB6C9D70229D5C4300D7483F /* JJItemBtnView.swift in Sources */,
 				CBDB87E720F8A3F300BB1616 /* JJSearchViewController.swift in Sources */,
 				CBDB87E120F768D100BB1616 /* JJTabbarViewController.swift in Sources */,
 				CBDB87E320F76B5900BB1616 /* JJNavigationController.swift in Sources */,
@@ -495,12 +551,12 @@
 /* Begin PBXTargetDependency section */
 		CBDB87A720F7489A00BB1616 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CBDB879020F7489800BB1616 /* JJTabbar */;
+			target = CBDB879020F7489800BB1616 /* JJMintFurniture */;
 			targetProxy = CBDB87A620F7489A00BB1616 /* PBXContainerItemProxy */;
 		};
 		CBDB87B220F7489A00BB1616 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CBDB879020F7489800BB1616 /* JJTabbar */;
+			target = CBDB879020F7489800BB1616 /* JJMintFurniture */;
 			targetProxy = CBDB87B120F7489A00BB1616 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -694,7 +750,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJTabbar.app/JJTabbar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJMintFurniture.app/JJMintFurniture";
 			};
 			name = Debug;
 		};
@@ -715,7 +771,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJTabbar.app/JJTabbar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJMintFurniture.app/JJMintFurniture";
 			};
 			name = Release;
 		};
@@ -762,7 +818,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CBDB878C20F7489700BB1616 /* Build configuration list for PBXProject "JJTabbar" */ = {
+		CBDB878C20F7489700BB1616 /* Build configuration list for PBXProject "JJMintFurniture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBDB87B720F7489A00BB1616 /* Debug */,
@@ -771,7 +827,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBDB87B920F7489A00BB1616 /* Build configuration list for PBXNativeTarget "JJTabbar" */ = {
+		CBDB87B920F7489A00BB1616 /* Build configuration list for PBXNativeTarget "JJMintFurniture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBDB87BA20F7489A00BB1616 /* Debug */,
@@ -780,7 +836,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBDB87BC20F7489A00BB1616 /* Build configuration list for PBXNativeTarget "JJTabbarTests" */ = {
+		CBDB87BC20F7489A00BB1616 /* Build configuration list for PBXNativeTarget "JJMintFurnitureTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBDB87BD20F7489A00BB1616 /* Debug */,
@@ -789,7 +845,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBDB87BF20F7489A00BB1616 /* Build configuration list for PBXNativeTarget "JJTabbarUITests" */ = {
+		CBDB87BF20F7489A00BB1616 /* Build configuration list for PBXNativeTarget "JJMintFurnitureUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBDB87C020F7489A00BB1616 /* Debug */,
